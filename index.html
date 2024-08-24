@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .image{
+        background: url(sky2.jpg);
+      }
+      .down{
+        margin-top:150px;
+      }
+      body{
+        background-image: linear-gradient(to right top, #ce2fda, #8174ff, #0098ff, #00affc, #00bee1, #00bec2, #00bb95, #5bb362, #7f9d25, #9f8000, #ba5b00, #cc1a1a);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="row down">
+         <div class="col-md-4 border text-center bg-light offset-md-2">
+             <i class="fa fa-user fa-3x mt-3"></i>
+             <h2>SignUp</h2>
+             <div class="col-auto">
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text"><i class="fa fa-user"></i></div>
+                </div>
+                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Enter Full Name">
+              </div>
+         </div>
+         <div class="col-auto">
+          <div class="input-group mb-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text"><i class="fa fa-envelope"></i></div>
+            </div>
+            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Enter Email">
+          </div>
+     </div>
+     <div class="col-auto">
+      <div class="input-group mb-2">
+        <div class="input-group-prepend">
+          <div class="input-group-text"><i class="fa fa-lock"></i></div>
+        </div>
+        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Enter Password">
+      </div>
+ </div>
+ <div class="col-auto">
+  <div class="input-group mb-2">
+    <div class="input-group-prepend">
+      <div class="input-group-text"><i class="fa fa-lock"></i></div>
+    </div>
+    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Confirm Password">
+  </div>
+
+</div>
+<div class="container text-center p-3">
+  <button class="btn btn-success badge-pill">SignUp</button>
+</div>
+         </div>
+<div class="col-md-4 border text-center image">
+      <h2 class="mt-3 text-white">Sign In With<br>Social Media<br></h2>
+      <button class="btn btn-primary mt-5"><i class="fa fa-facebook"></i> Signin with Facebook</button>
+      <button class="btn btn-warning mt-2"><i class="fa fa-instagram"></i> Signin with Instagram</button>
+      <button class="btn btn-danger mt-2"><i class="fa fa-google"></i> Signin with Google</button>
+</div>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="popper.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="mdb.js"></script>
+</body>
+</html>
